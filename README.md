@@ -77,7 +77,7 @@ this.btn01.on('click', function(){
 
 En este caso, hay que hacer notar que no se pasa como parametro *this* en la última linea del código.
 
-Puedes descargar un archivo de ejemplo [aquí](./master/examples/ex_btns_click.fla).
+Puedes descargar un archivo de ejemplo [aquí](./examples/ex_btns_click.fla).
 
 ### Modificar el cursor del ratón al pasar sobre un botón
 
@@ -89,7 +89,7 @@ this.btn01.cursor = 'pointer';
 
 ```
 
-**Animate CC** no reconoce que se quiere trabajar con **Events** del ratón y no añade la instrucción `stage.enableMouseOver();` en el momento de la carga del archivo, una forma de forzar a que sí lo haga es poniento un clip del típo **button** fuera del **stage** como se muestra en este [ejemplo](./master/examples/ex_btns_click.fla).
+**Animate CC** no reconoce que se quiere trabajar con **Events** del ratón y no añade la instrucción `stage.enableMouseOver();` en el momento de la carga del archivo, una forma de forzar a que sí lo haga es poniento un clip del típo **button** fuera del **stage** como se muestra en este [ejemplo](./examples/ex_btns_click.fla).
 
 Si no se quiere poner la instrucción mencionada arriba se puede convertir el **MC** en **Button**.
 
@@ -122,6 +122,6 @@ this.btn01.on('mouseout', function(){
 
 En este ejemplo en el **mouseover** se manda a reproducir a el **tag** 'over' del **MC** _titulo_ que se encuentra adentro del **MC** _btn01_.
 
-[Ejemplo](./master/examples/ex_btns_mouseover.fla)
+[Ejemplo](./examples/ex_btns_mouseover.fla)
 
 
